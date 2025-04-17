@@ -1,0 +1,7 @@
+services:
+  node-1:
+    build: .
+    environment:
+      - PEERS=
+    ports:
+      - "8080:8080"

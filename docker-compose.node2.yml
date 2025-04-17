@@ -1,0 +1,7 @@
+services:
+  node-2:
+    build: .
+    environment:
+      - PEERS=/ip4/192.168.147.2/tcp/37451/p2p/12D3KooWHyrcCZQbq2CvLHzSYbhEqvdocnW5gKBuiERHuPS1ey6Y
+    ports:
+      - "8081:8080"

@@ -42,6 +42,6 @@ func main() {
 	router.GET("/mempool", func(c *gin.Context) {
 			c.JSON(http.StatusOK, mempool.All())
 	})
-	log.Println("Listening on :8081")
-	log.Fatal(router.Run(":8081"))
+	log.Println("Listening on :8080")
+	log.Fatal(router.Run(":8080"))
 }
